@@ -17,20 +17,20 @@ html, body {
 
 .topBox {
   flex: 1;
-  height: 100px;
+  height: 80px;
   margin: 10px 10px;
 }
 
 .topBox:first-child {
-  background: red;
+  background: #D0021B;
 }
 
 .topBox:nth-child(2) {
-  background: blue;
+  background: #4A90E2;
 }
 
 .topBox:nth-child(3) {
-  background: black;
+  background: #4A4A4A;
 }
 
 p {
@@ -41,35 +41,35 @@ p {
   margin: 10px 10px;
   /* width: 100%; */
   height: 200px;
-  background: blue;
+  background:  #4A90E2;
 }
 
 .mainLeft {
   width: 30%;
-  background: red;
+  background: #D0021B;
   height: 200px;
 }
 
 footer {
   margin: 10px 10px;
   /* width: 90%; */
-  height: 100px;
-  background: blue;
+  height: 80px;
+  background: #4A90E2;
   position: relative;
 }
 
 .footerRight {
   width: 30%;
-  height: 100px;
-  background: red;
+  height: 80px;
+  background: #D0021B;
   position: absolute;
   right: 0;
 }
 
 .footerRightCent {
   width: 80%;
-  height: 100px;
-  background: black;
+  height: 80px;
+  background: #4A4A4A;
   position: absolute;
   right: 10%;
 }
