@@ -10,7 +10,7 @@ html, body {
 
 .top3 {
   display: flex;
-  flex: 10;
+ /*  flex: 10; */
   flex-direction: row;
 
 }
